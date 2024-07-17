@@ -31,6 +31,9 @@
               <li><a href="#">Blog</a></li>
               <li><a href="#">Contact</a></li>
             </ul>
+            <a class="mobile-menu-bar" href="#"
+              ><i class="fa-solid fa-bars"></i
+            ></a>
           </nav>
         </div>
         <!-- banner section -->
@@ -223,7 +226,7 @@
       <!-- Deals Cards section -->
       <section id="deals-container">
         <div class="container section-padding pt-0">
-          <div class="section-title">
+          <div class="section-title text-center">
             <h2 class="title">Deals & Discounts</h2>
             <p>
               Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
@@ -247,7 +250,9 @@
                   adipiscing quis. Habitant adipiscing.
                 </p>
                 <p class="price-range">Price: $1300-$1500</p>
-                <button class="btn btn-primary">Book Now</button>
+                <div class="btn-container">
+                  <button class="btn btn-primary">Book Now</button>
+                </div>
               </div>
             </div>
             <div class="single-deal-item">
@@ -266,7 +271,9 @@
                   adipiscing quis. Habitant adipiscing.
                 </p>
                 <p class="price-range">Price: $1300-$1500</p>
-                <button class="btn btn-primary">Book Now</button>
+                <div class="btn-container">
+                  <button class="btn btn-primary">Book Now</button>
+                </div>
               </div>
             </div>
             <div class="single-deal-item">
@@ -285,11 +292,13 @@
                   adipiscing quis. Habitant adipiscing.
                 </p>
                 <p class="price-range">Price: $1300-$1500</p>
-                <button class="btn btn-primary">Book Now</button>
+                <div class="btn-container">
+                  <button class="btn btn-primary">Book Now</button>
+                </div>
               </div>
             </div>
           </div>
-          <div class="btn-container">
+          <div class="btn-container text-center">
             <button class="btn btn-primary">See all Packages</button>
           </div>
         </div>
@@ -298,9 +307,12 @@
       <section id="featured-video-container">
         <div class="container section-padding pt-0">
           <div class="featured-video-content">
-            <div class="featured-text">
+            <div class="featured-video-text">
               <div class="section-title">
-                <h2 class="title">A Simple Perfect Place To Get Lost</h2>
+                <h2 class="title">
+                  A Simple Perfect Place <br />
+                  To Get Lost
+                </h2>
               </div>
               <div class="featured-desc">
                 <p>
@@ -321,18 +333,38 @@
               </div>
               <button class="btn btn-primary">Read More</button>
             </div>
-            <div class="featured-video"></div>
+            <div class="featured-video">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/1XkNhbBeSX8?si=jh1zbEbC-ayr83WW"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <div class="video-inner text-center">
+                <p>
+                  Watch Our Mountain in <br />
+                  Bangladesh
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
       <!-- newsletter section -->
       <section id="newsletter-container">
         <div class="container section-padding pt-0">
-          <div class="newsletter-content">
+          <div class="newsletter-content flex">
             <div class="newsletter-form">
-              <form action="">
+              <form class="flex" action="">
                 <h3>Newsletter</h3>
-                <p>Get your daily dose of travel news & tips. Sign up today!</p>
+                <p>
+                  Get your daily dose of travel news & tips. <br />
+                  Sign up today!
+                </p>
                 <span class="horizontal-line"></span>
                 <input
                   type="text"
@@ -371,7 +403,7 @@
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi
-            vitae blandit orci potenti vulputate. Leo erat maecenas vitae
+            vitae blandit orci potenti vulputate. <br />Leo erat maecenas vitae
             elementum ultricies nullam.
           </p>
           <ul class="social-inks">
@@ -388,7 +420,7 @@
               <a href="#"><i class="fa-brands fa-github"></i></a>
             </li>
           </ul>
-          <span class="horizontal-line"></span>
+
           <p class="copyright">2017 &copy; All Rights Reserved.</p>
         </div>
       </div>
