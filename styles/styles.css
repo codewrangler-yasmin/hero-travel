@@ -179,7 +179,7 @@ ul.nav-links li:hover > a {
 }
 /* banner styles */
 .banner-container {
-  background-image: url(../images/bridgeway1.png);
+  background-image: url(../Images/bridgeway1.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -429,10 +429,10 @@ h3.service-title {
 }
 .single-deal-item:nth-child(1),
 .single-deal-item:nth-child(3) {
-  background-image: url(../images/poolside1.png);
+  background-image: url(../Images/poolside1.png);
 }
 .single-deal-item:nth-child(2) {
-  background-image: url(../images/poolside2.png);
+  background-image: url(../Images/poolside2.png);
 }
 .deal-text {
   grid-column: 6 / span 7;
@@ -509,7 +509,7 @@ p.price-range {
   height: 100%;
   width: 100%;
   border-radius: 16px;
-  background-image: url(../images/bandarban.png);
+  background-image: url(../Images/bandarban.png);
   background-size: cover;
   background-color: #0000009e;
   top: 0;
